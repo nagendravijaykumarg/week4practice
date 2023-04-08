@@ -1,0 +1,14 @@
+//wap to copy elements of one array to another array
+import java.util.Scanner;
+public class Demo1{
+  public static void main (String[]args){
+    int[]original ={20,30,40,50};
+    int[] copy=original;
+    System.out.println("Original array is:");
+    for(int i=0;i<original.length;i++);
+    System.out.print(original[i]+"\t");
+    System.out.print("\n copied array is:");
+    for (int i=0;i<copy.length;i++);
+    System .out.print(copy [i]+"\t");
+      }
+}
