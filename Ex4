@@ -1,0 +1,52 @@
+import java.util.Scanner;
+public class Ex4{
+  public void insertone(int a[],int len)
+  {
+    System.out.println("Enter the first element to be inserted:");
+    int p=s.nextint();
+    a[0]=p;
+    for (int i=0;i<len;i++)
+      {
+        System.out.println("output is "+a[i]);        
+      }
+    }
+    public void insertlast(int a[],int len)
+  {
+    System.out.println("Enter the last element to be inserted":);
+    int p=s.nextint();
+    a[len-1]=p;
+    for( int i=0;i<len;i++)
+      {
+       System.out.println("output is "+a[i]);
+      }
+}
+  public void inserspeci(int a[],int len)
+  {
+    System.out.println("Enter index number where element has to be inserted");
+ int p=s.nextint();
+  System.out.println("Enter the element to be inserted");
+    int t=s nextint();
+    int newa[]=new int[len+1];
+    for (int i=0;i<len;i++)
+      {
+        newa[i]=a[i]
+      }
+    newa[pos]=t;
+    for(int i=pos+1;i<len+1;i++)
+    {
+      System.out.print(newa[i]);
+    }
+      }
+    public void removeone(int a[],int len)
+  {
+    int newa[i]=a[i];
+  int new a[]=newint[len];
+    for (inti=0;i<len;i++)
+      {
+        new a[i]=a[i];
+        for(int i=0;i<len-1;i++)
+          
+        
+      }
+  }      
+}
